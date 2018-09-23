@@ -1,0 +1,25 @@
+Description: 
+Валидация поля поля  "Электронная почта".
+
+Precondition: 
+- В браузере открыть страницу https://moscow-job.tinkoff.ru/
+- Проскроллить экран до хэдера с текстом "Заполните анкету"
+
+DataSet: 
+Email = "W@ya.RU"
+Email = "89778311832@ya.ru" 
+Email = "test@88.ru"
+Email = "TEST-Fintech@gmail.com"
+Email = "TESTFintech@gmail-ya.com" 
+Email = "TESTFintech@gmail_ya.com" 
+Email = "TEST_Fintech@gmail.com"
+Email = "TEST.Finte.ch@icloud.com"
+Email = "Test@gmail.ya.com"
+
+
+ Steps: 
+- Заполнить поле: "Электронная почта" данными из DataSet 
+- Нажать на область вне поля
+
+ Results: 
+- Поле прошло валидацию. Справа от email отображается зелёная галочка
