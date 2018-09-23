@@ -2,7 +2,7 @@ Description:
 Проверка внешнего вида формы заполенения анкеты 
 
 Precondition: 
-- В браузере открыть страницу https://github.com/jenna-automation/qa_automation/new/master
+- В браузере открыть страницу https://moscow-job.tinkoff.ru/
 
 Steps: 
 - Проскроллить экран до хэдера с текстом "Заполните анкету"
