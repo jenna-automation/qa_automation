@@ -1,0 +1,27 @@
+Description: 
+Поле "Электронная почта" - Cаджесты 
+
+
+Precondition: 
+- В браузере открыть страницу https://moscow-job.tinkoff.ru/
+- Проскроллить экран до хэдера с текстом "Заполните анкету"
+
+DataSet:
+Email = "test@" 
+
+Step: 
+- В поле "Электронная почта" ввести данные из DataSet 
+
+Result: 
+
+Под полем появлется список саджестов: 
+"<Email из Dataset>@yandex.ru"
+"<Email из Dataset>@mail.ru"
+"<Email из Dataset>@gmail.com"
+"<Email из Dataset>@rambler.ru"
+"<Email из Dataset>@bk.ru"
+"<Email из Dataset>@yandex.ua"
+"<Email из Dataset>@list.ru"
+"<Email из Dataset>@inbox.ru"
+"<Email из Dataset>@yandex.com"
+"<Email из Dataset>@ya.ru"
